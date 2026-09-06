@@ -4,7 +4,7 @@ import { test, expect } from "@playwright/test";
     console.log("Starting Practice Test 1");
     await page.goto("https://www.saucedemo.com/");
     console.log(await page.title());
-    expect(page) .toHaveTitle("Swag.Labs")
+    expect(page) .toHaveTitle("Swag Labs")
     console.log("Ending Practice Test 1");
 })
 
