@@ -12,7 +12,7 @@ test("Practice Test 2", async ({ page }) => {
 console.log("Starting Practice Test 2");
 await page.goto("https://www.saucedemo.com/");
 console.log(await page.title());
-expect(page).toHaveTitle("Swag Labs")
+await expect(page).toHaveTitle("Swag Labs")
 console.log("Ending Practice Test 2");
 })
 
@@ -20,7 +20,7 @@ test("Practice Test 3", async ({ page }) => {
 console.log("Starting Practice Test 3");
 await page.goto("https://www.saucedemo.com/");
 console.log(await page.title());
-expect(page).toHaveTitle("Swag Labs Wrong")
+await expect(page).toHaveTitle("Swag Labs Wrong")
 console.log("Ending Practice Test 3");
 })
 
@@ -30,7 +30,7 @@ test.describe("Practice of Describe", async () => {
         console.log("Starting Practice Test 4");
         await page.goto("https://www.saucedemo.com/");
         console.log(await page.title());
-        expect(page).toHaveTitle("Swag Labs")
+        await expect(page).toHaveTitle("Swag Labs")
         console.log("Ending Practice Test 4");
     })
 
@@ -38,14 +38,14 @@ test.describe("Practice of Describe", async () => {
     console.log("Starting Practice Test5");
     await page.goto("https://www.saucedemo.com/");
     console.log(await page.title());
-    expect(page).toHaveTitle("Swag Labs")
+    await expect(page).toHaveTitle("Swag Labs")
     console.log("Ending Practice Test 5");
     })
     test("Practice Test.6", async ({page, browserName})=>{
     console.log("Starting Practice Test6");
     await page.goto("https://www.saucedemo.com/");
     console.log(await page.title());
-    expect(page).toHaveTitle("Swag Labs")
+    await expect(page).toHaveTitle("Swag Labs")
     console.log("Ending Practice Test 6");
     })
    
@@ -55,6 +55,6 @@ test("Practice Test.7", async ({page, browserName})=>{
     console.log("Starting Practice Test7");
     await page.goto("https://www.saucedemo.com/");
     console.log(await page.title());
-    expect(page).toHaveTitle("Swag Labs")
+    await await expect(page).toHaveTitle("Swag Labs")
     console.log("Ending Practice Test 7");
     })
