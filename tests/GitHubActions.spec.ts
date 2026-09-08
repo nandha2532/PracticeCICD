@@ -39,7 +39,7 @@ test.describe("Practice of Describe", async () => {
     await page.goto("https://www.saucedemo.com/");
     console.log(await page.title());
     await expect(page).toHaveTitle("Swag Labs")
-    console.log("Ending Practice Test 5");
+    console.log("Ending Practice Test 5")
     })
     test("Practice Test.6", async ({page, browserName})=>{
     console.log("Starting Practice Test6");
