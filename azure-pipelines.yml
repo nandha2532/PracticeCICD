@@ -22,4 +22,4 @@ steps:
   displayName: 'Install Dependency'
 
 - script: npx playwright test
-  displayName: 'Run playwright tests'
+  displayName: 'Run playwright tests From Git using Pipeline'
